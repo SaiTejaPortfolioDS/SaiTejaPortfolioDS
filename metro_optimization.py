@@ -4,13 +4,13 @@ import seaborn as sns
 import datetime as dt
 
 # Load all the data files
-agency = pd.read_csv('data/agency.txt')
-calendar = pd.read_csv('data/calendar.txt')
-routes = pd.read_csv('data/routes.txt')
-shapes = pd.read_csv('data/shapes.txt')
-stop_times = pd.read_csv('data/stop_times.txt')
-stops = pd.read_csv('data/stops.txt')
-trips = pd.read_csv('data/trips.txt')
+agency = pd.read_csv('agency.txt')
+calendar = pd.read_csv('calendar.txt')
+routes = pd.read_csv('routes.txt')
+shapes = pd.read_csv('shapes.txt')
+stop_times = pd.read_csv('stop_times.txt')
+stops = pd.read_csv('stops.txt')
+trips = pd.read_csv('trips.txt')
 
 # Plot geographical paths of Delhi Metro routes
 plt.figure(figsize=(10, 8))
